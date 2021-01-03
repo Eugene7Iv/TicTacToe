@@ -1,4 +1,6 @@
 <RCC>
-    <qresource prefix="TicTacToe">
+    <qresource prefix="/TicTacToe">
+        <file>bVaider.png</file>
+        <file>wVaider.png</file>
     </qresource>
 </RCC>
