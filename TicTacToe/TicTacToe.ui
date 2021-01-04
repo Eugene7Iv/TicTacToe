@@ -17,7 +17,7 @@
    <item row="0" column="2">
     <layout class="QGridLayout" name="gridLayout_2">
      <item row="0" column="0">
-      <widget class="MyQLabel" name="label">
+      <widget class="QLabel" name="label">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -30,13 +30,19 @@
          <height>128</height>
         </size>
        </property>
+       <property name="frameShape">
+        <enum>QFrame::Panel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item row="1" column="2">
-      <widget class="MyQLabel" name="label_6">
+      <widget class="QLabel" name="label_6">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -49,13 +55,16 @@
          <height>128</height>
         </size>
        </property>
+       <property name="frameShape">
+        <enum>QFrame::Panel</enum>
+       </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="MyQLabel" name="label_4">
+      <widget class="QLabel" name="label_4">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -68,13 +77,16 @@
          <height>128</height>
         </size>
        </property>
+       <property name="frameShape">
+        <enum>QFrame::Panel</enum>
+       </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="MyQLabel" name="label_2">
+      <widget class="QLabel" name="label_2">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -87,13 +99,19 @@
          <height>128</height>
         </size>
        </property>
+       <property name="frameShape">
+        <enum>QFrame::Panel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="MyQLabel" name="label_5">
+      <widget class="QLabel" name="label_5">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -106,13 +124,16 @@
          <height>128</height>
         </size>
        </property>
+       <property name="frameShape">
+        <enum>QFrame::Panel</enum>
+       </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item row="0" column="2">
-      <widget class="MyQLabel" name="label_3">
+      <widget class="QLabel" name="label_3">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -125,13 +146,16 @@
          <height>128</height>
         </size>
        </property>
+       <property name="frameShape">
+        <enum>QFrame::Panel</enum>
+       </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="MyQLabel" name="label_7">
+      <widget class="QLabel" name="label_7">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -144,13 +168,16 @@
          <height>128</height>
         </size>
        </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="MyQLabel" name="label_8">
+      <widget class="QLabel" name="label_8">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -163,13 +190,16 @@
          <height>128</height>
         </size>
        </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item row="2" column="2">
-      <widget class="MyQLabel" name="label_9">
+      <widget class="QLabel" name="label_9">
        <property name="minimumSize">
         <size>
          <width>128</width>
@@ -182,8 +212,11 @@
          <height>128</height>
         </size>
        </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -192,13 +225,6 @@
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <customwidgets>
-  <customwidget>
-   <class>MyQLabel</class>
-   <extends>QLabel</extends>
-   <header>MyQLabel.h</header>
-  </customwidget>
- </customwidgets>
  <resources>
   <include location="TicTacToe.qrc"/>
  </resources>

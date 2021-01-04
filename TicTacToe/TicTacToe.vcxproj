@@ -90,12 +90,8 @@
     <QtRcc Include="TicTacToe.qrc" />
     <QtUic Include="TicTacToe.ui" />
     <QtMoc Include="TicTacToe.h" />
-    <ClCompile Include="MyQLabel.cpp" />
     <ClCompile Include="TicTacToe.cpp" />
     <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="MyQLabel.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TicTacToeGame.h" />

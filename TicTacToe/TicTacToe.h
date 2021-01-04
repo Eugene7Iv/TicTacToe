@@ -11,6 +11,11 @@ class TicTacToe : public QWidget
 public:
     TicTacToe(QWidget *parent = Q_NULLPTR);
 
+protected:
+	void mouseReleaseEvent(QMouseEvent* ev) override;
+
+	void update(QLabel* label);
+
 private:
 	TicTacToeGame m_game;
     Ui::TicTacToeClass ui;
